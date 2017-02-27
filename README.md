@@ -7,7 +7,9 @@
 
 ## 安装
 
-> composer require flc/php-queue
+```
+composer require flc/php-queue
+```
 
 ## 使用范例
 
