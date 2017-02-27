@@ -1,5 +1,5 @@
 <?php
-namespace App\Queue;
+namespace Flc\Queue;
 
 use Redis;
 use Exception;

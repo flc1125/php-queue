@@ -2,10 +2,10 @@
 /**
  * 任务创建
  */
-require_once __DIR__ . '/vendor/autoload.php';
+require_once __DIR__ . '/bootstrap.php';
 
-use App\Queue\Manager;
-use App\Jobs\Demo;
+use Flc\Queue\Manager;
+use Jobs\Demo;
 
 // 创建工作
 $demo = new Demo('测试');

@@ -1,5 +1,5 @@
 <?php
-namespace App\Queue;
+namespace Flc\Queue;
 
 /**
  * 队列任务接口类

@@ -1,7 +1,11 @@
 {
+    "name": "flc/php-queue",
+    "description": "php+redis队列",
+    "keywords": ["php", "flc", "queue", "job", "redis", "job-queue"],
+    "license": "MIT",
     "autoload": {
         "psr-4": {
-            "App\\": "App/"
+            "Flc\\Queue\\": "src/Queue/"
         }
     }
 }

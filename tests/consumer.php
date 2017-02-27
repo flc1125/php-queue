@@ -2,10 +2,10 @@
 /**
  * 任务执行者（常驻）
  */
-require_once __DIR__ . '/vendor/autoload.php';
+require_once __DIR__ . '/bootstrap.php';
 
-use App\Queue\Manager;
-use App\Jobs\Demo;
+use Flc\Queue\Manager;
+use Jobs\Demo;
 
 if ('cli' !== php_sapi_name()) {
     die('必须在命令行模式下运行');

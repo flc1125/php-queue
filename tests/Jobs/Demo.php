@@ -1,7 +1,7 @@
 <?php
-namespace App\Jobs;
+namespace Jobs;
 
-use App\Queue\JobInterface;
+use Flc\Queue\JobInterface;
 
 /**
  * 测试任务
