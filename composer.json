@@ -1,6 +1,6 @@
 {
     "name": "flc/php-queue",
-    "description": "php+redis队列",
+    "description": "php redis queue",
     "keywords": ["php", "flc", "queue", "job", "redis", "job-queue"],
     "license": "MIT",
     "autoload": {
